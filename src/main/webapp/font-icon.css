@@ -1,0 +1,226 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: "font-icon";
+	src:url("fonts/font-icon.eot");
+	src:url("fonts/font-icon.eot?#iefix") format("embedded-opentype"),
+	url("fonts/font-icon.woff") format("woff"),
+	url("fonts/font-icon.ttf") format("truetype"),
+	url("fonts/font-icon.svg#font-icon") format("svg");
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+[data-icon]:before {
+	font-family: "font-icon" !important;
+	content: attr(data-icon);
+	font-style: normal !important;
+	font-weight: normal !important;
+	font-variant: normal !important;
+	text-transform: none !important;
+	speak: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+	font-family: "font-icon" !important;
+	font-style: normal !important;
+	font-weight: normal !important;
+	font-variant: normal !important;
+	text-transform: none !important;
+	speak: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-administrate:before {
+	content: "a";
+}
+.icon-rejected:before {
+	content: "b";
+}
+.icon-updated:before {
+	content: "c";
+}
+.icon-add-new:before {
+	content: "d";
+}
+.icon-all-referrals:before {
+	content: "e";
+}
+.icon-inbound:before {
+	content: "f";
+}
+.icon-outbound:before {
+	content: "g";
+}
+.icon-received:before {
+	content: "i";
+}
+.icon-signed:before {
+	content: "k";
+}
+.icon-folder0:before {
+	content: "l";
+}
+.icon-folder1:before {
+	content: "m";
+}
+.icon-user:before {
+	content: "n";
+}
+.icon-log-out:before {
+	content: "o";
+}
+.icon-print:before {
+	content: "r";
+}
+.icon-sign-and-close:before {
+	content: "u";
+}
+.icon-received2:before {
+	content: "j";
+}
+.icon-start-reporting:before {
+	content: "v";
+}
+.icon-settings:before {
+	content: "q";
+}
+.icon-save:before {
+	content: "w";
+}
+.icon-patient:before {
+	content: "x";
+}
+.icon-my-org:before {
+	content: "A";
+}
+.icon-reject2:before {
+	content: "B";
+}
+.icon-info:before {
+	content: "h";
+}
+.icon-question:before {
+	content: "s";
+}
+.icon-info2:before {
+	content: "y";
+}
+.icon-question2:before {
+	content: "z";
+}
+.icon-arrow-right:before {
+	content: "C";
+}
+.icon-arrow-left:before {
+	content: "D";
+}
+.icon-draft:before {
+	content: "E";
+}
+.icon-key:before {
+	content: "F";
+}
+.icon-sample-glass:before {
+	content: "G";
+}
+.icon-attached-files:before {
+	content: "H";
+}
+.icon-key2:before {
+	content: "I";
+}
+.icon-news-info:before {
+	content: "J";
+}
+.icon-radiology-studies:before {
+	content: "K";
+}
+.icon-mail:before {
+	content: "L";
+}
+.icon-security:before {
+	content: "M";
+}
+.icon-repository:before {
+	content: "N";
+}
+.icon-bulletin-board:before {
+	content: "p";
+}
+.icon-worklist-mngment:before {
+	content: "O";
+}
+.icon-arrow-down:before {
+	content: "P";
+}
+.icon-arrow-up:before {
+	content: "Q";
+}
+.icon-sign-and-next2:before {
+	content: "t";
+}
+.icon-sign-and-next:before {
+	content: "R";
+}
+.icon-close-exit:before {
+	content: "S";
+}
+.icon-rxeye:before {
+	content: "T";
+}
+.icon-edit:before {
+	content: "U";
+}
+.icon-search:before {
+	content: "V";
+}
+.icon-reserve:before {
+	content: "W";
+}
+.icon-reserve-unlocked:before {
+	content: "X";
+}
+.icon-expand:before {
+	content: "Y";
+}
+.icon-collapse:before {
+	content: "Z";
+}
+.icon-prel-signed:before {
+	content: "0";
+}
+.icon-send:before {
+	content: "1";
+}
+.icon-sending:before {
+	content: "2";
+}
+.icon-include-slides:before {
+	content: "3";
+}
+.icon-exclude-slides:before {
+	content: "4";
+}
+.icon-reorder:before {
+	content: "5";
+}
+.icon-server-available-studies:before {
+	content: "6";
+}
+.icon-server-up:before {
+	content: "7";
+}
+.icon-work-mngmt:before {
+	content: "8";
+}
+.icon-statistics:before {
+	content: "9";
+}
